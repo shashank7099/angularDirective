@@ -1,0 +1,7 @@
+<hello name="{{ name }}"></hello>
+<form [formGroup]="_form">
+	Input com a diretiva: <input appUppercase formControlName="inputCtrl">
+</form>
+<pre>
+  {{_form.value | json}}
+</pre>
